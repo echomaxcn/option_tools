@@ -94,5 +94,7 @@ def main(option_code, spot_code, k, t, option_type, show=True):
 
 
 if __name__ == '__main__':
-    main('10002235', '510050', 3.0, 238.0 / 365.0, 'Call')
+    # main('10002235', '510050', 3.0, 238.0 / 365.0, 'Call')
+    # main('10002571', '510050', 3.2, 64 / 365.0, 'Call')
+    main('10002776', '510050', 3.4, 8 / 365.0, 'Call')
 

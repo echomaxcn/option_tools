@@ -21,5 +21,6 @@ def get_future_day_kline(code):
 
 
 if __name__ == '__main__':
-    get_future_day_kline('M2005')
+    print(get_future_day_kline('M2101'))
+    
 

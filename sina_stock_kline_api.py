@@ -358,7 +358,7 @@ def get_stock_time_line(code):
 
 
 def my_test():
-    # kline = get_stock_day_kline('sh510050')
+    kline = get_stock_day_kline('sh510050')
     # for i in kline:
     #     print(i)
     for i in get_stock_time_line('sz000009'):

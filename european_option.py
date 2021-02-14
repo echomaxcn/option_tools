@@ -34,7 +34,10 @@ def greeks(s, k, sigma, r, t, option_type):
     else:
         delta = norm.cdf(d1) - 1.0
         theta = theta_call + tmp3
+    print(delta, gamma ,vega, theta)
+    exit()
     return delta, gamma, theta, vega
+greeks(4.858,4.9,0.1859,0.025,0.0931,'Call')    
 
 #
 # def delta(s, k, sigma, r, t, option_type):
